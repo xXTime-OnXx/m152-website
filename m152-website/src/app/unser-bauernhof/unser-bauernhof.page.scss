@@ -1,21 +1,62 @@
 .logo {
-  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  border: 3px solid dodgerblue;
-  padding: 10px;
+  height: 20vh;
 }
 
 .content {
   margin: 5%;
-  background-color: #dbdbdb;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-color: navajowhite;
   text-align: center;
+  padding: 3%;
+}
+
+img {
+  border-radius: 8px;
+  max-height: 38vh;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ion-card {
+  margin: 2%;
+  padding: 2%;
+}
+
+ion-title {
+  border-radius: 8px;
+  max-width: 60%;
+  background-color: white;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .audio{
   margin-left: auto;
   margin-right: auto;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: navajowhite;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
