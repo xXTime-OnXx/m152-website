@@ -1,16 +1,24 @@
 .logo {
-  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  border: 3px solid dodgerblue;
-  padding: 10px;
+  height: 20vh;
+}
+
+img {
+  border-radius: 8px;
+  max-height: 38vh;
+}
+
+ion-card {
+  margin: 2%;
+  padding: 2%;
 }
 
 .content {
   margin: 5%;
-  background-color: #dbdbdb;
+  background-color: navajowhite;
   text-align: center;
+  padding: 3%;
 }
 
 .contact {
@@ -22,11 +30,11 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 5px;
-  background-color: #2196F3;
+  background-color: navajowhite;
   padding: 5px;
 }
 
 .grid-container > div {
-  background-color: #dbdbdb;
-  padding: 5px 0;
+  background-color: white;
+  padding: 5px;
 }
